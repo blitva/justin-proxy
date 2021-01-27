@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Blitva's Amazon.com</title>
+  </head>
+  <body>
+    <div id="Photos"></div>
+    <div id="Description"></div>
+    <div id="ProductFeatures"></div>
+    <div id="Reviews"></div>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="http://localhost:4000/productFeatures_bundle.js"></script>
+    <script src="http://localhost:4002/photos_bundle.js"></script>
+    <script src="http://localhost:4004/description_bundle.js"></script>
+    <script src="http://localhost:4006/reviews_bundle.js"></script>
+    <script>
+      ReactDOM.render(
+        React.createElement(Photos),
+        document.getElementById('Photos')
+      );
+      ReactDOM.render(
+        React.createElement(Description),
+        document.getElementById('Description')
+      );
+      ReactDOM.render(
+        React.createElement(ProductFeatures),
+        document.getElementById('ProductFeatures')
+      );
+      ReactDOM.render(
+        React.createElement(Reviews),
+        document.getElementById('Reviews')
+      );
+    </script>
+  </body>
+</html>
