@@ -20,5 +20,6 @@
   },
   "devDependencies": {
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+  },
+  "proxy": "http://localhost:3000"
 }
