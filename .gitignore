@@ -24,6 +24,6 @@ coverage
 build/
 dist/
 
-.pem
-.sh
+*.pem
+*.sh
 
