@@ -1,8 +1,9 @@
 body {
+  font-family: 'Amazon Ember', Arial, sans-serif;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* padding-left: 120px; */
 }
 
 #top-container {
@@ -14,4 +15,5 @@ body {
 #lower-container {
   display: flex;
   flex-direction: column;
+  margin: 0px auto 0px auto;
 }
